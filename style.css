@@ -259,7 +259,18 @@ header > section > .nav-btn > img {
 }
 .main-container > .heading-1 > div {
   border: 2px solid;
-  border-inline-color: linear-gradient(93.63deg, #CAA648 -0.61%, #CAA648 10.09%, #D5B147 25.19%, #E4C267 46.69%, #E2C065 78.94%, #DBB95E 90.77%, #D0AE52 98.29%, #C09F41 104.74%, #BB9A3C 106.89%);
+  border-inline-color: linear-gradient(
+    93.63deg,
+    #caa648 -0.61%,
+    #caa648 10.09%,
+    #d5b147 25.19%,
+    #e4c267 46.69%,
+    #e2c065 78.94%,
+    #dbb95e 90.77%,
+    #d0ae52 98.29%,
+    #c09f41 104.74%,
+    #bb9a3c 106.89%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,4 +288,47 @@ header > section > .nav-btn > img {
   text-align: center;
   text-transform: capitalize;
   color: #322d2d;
+}
+
+/* container-2 style */
+.container2 {
+  position: relative;
+  padding: 0 64px;
+  margin-top: 140px;
+}
+.container2 > .box1,
+.ellipse {
+  position: relative;
+}
+.container2 > .box1 > .circle {
+  position: absolute;
+  width: 490px;
+  height: 490px;
+  border-radius: 50%;
+  border: 0.75px;
+  opacity: 60%;
+  border: 0.75px solid #d9d9d9;
+  top: 130px;
+  left: 150px;
+}
+.container2 > .box1 > div {
+  position: absolute;
+  width: 115px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container2 > .box1 > .shilajit {
+  bottom: 150px;
+  left: 40px;
+}
+.container2 > .box1 > .heShou {
+  bottom: 50px;
+  left: 200px;
+}
+.container2 > .box1 > .cordyceps {
+  bottom: 60px;
+  left: 400px;
 }
